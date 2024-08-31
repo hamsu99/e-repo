@@ -1,42 +1,73 @@
-# Ecommerce-Website-College-Project
-Final Year Project for students as Ecommerce website especially different webpages. Top class Website Development project that made by combination of front end programming languages such as HTML, CSS &amp; JS.
+# Todo App
 
-Tech : HTML & CSS aha
+A simple Todo App built using React with features to add, edit, mark tasks as completed, and filter tasks. The app utilizes a JSON API for fetching and updating tasks. State management is implemented using the Context API, and the app has a dark-themed design.
 
-### Click on play button see Demo:
+## Links
 
-https://user-images.githubusercontent.com/28294942/137707143-5db5ccac-f475-42b5-9065-0788094b70db.mov
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://abhishree-portfolio.web.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishree-451394201/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abhishree881)
 
+## Features
 
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Filter tasks by completion status
+- Sorted tasks in descending order based on ID
+- Dark-themed user interface
+- Error handling for API failures
+- Display total counts of tasks, completed tasks, and incomplete tasks
 
-**You Can use this Beautiful Project for your college Project and get good marks too.**
+## Technologies Used
 
-Email me Now **vatshayan007@gmail.com** to get this Full Project Code, PPT, Report, Synopsis, Video Presentation and Research paper of this Project.
+- React
+- Context API for state management
+- CSS for styling
+- JSON API for task data
 
-💌 Feel free to contact me for any kind of help on any projects.
- 
-### HOW TO RUN THE PROJECT-
-⚡ Email me at **vatshayan007@gmail.com** to get a detailed Guide report with Code to run the project with source Code.
+## Installation
 
-### Need Code, Documents & Explanation video ? 
+1.  Clone the repository:
 
-## How to Reach me :
+    ```bash
+    git clone https://github.com/Abhishree881/task-manager.git
 
-### Mail : vatshayan007@gmail.com 
+    ```
 
-### WhatsApp: **+91 9310631437** (Helping 24*7) **[CHAT](https://wa.me/message/CHWN2AHCPMAZK1)** 
+2.  Navigate to the project directory:
 
-### Website : https://www.finalproject.in/
+    ```bash
+    cd todo-app
 
-### 1000 Computer Science Projects : https://www.computer-science-project.in/
+    ```
 
-### More Web Dev Project : https://youtube.com/playlist?list=PL5g-9zkOohaFVr4-D344gUd-2vGMot-18&si=7Z--kjOJghZno4bv
+3.  Install dependencies:
 
-Mail/Message me for Projects Help 🙏🏻
+    ```bash
+    npm install
 
-### Liked Project?
-If you Like Idea/ Research Paper/Project then Mail or Click on Star button🙏🏻
+    ```
 
-**This is Open Source Web development Project**
+4.  Run the app:
 
-### Web Development Projects Playlist : https://youtube.com/playlist?list=PL5g-9zkOohaFVr4-D344gUd-2vGMot-18
+        ```bash
+        npm start
+
+    Open your browser and visit http://localhost:3000 to view the Todo App.
+
+## Usage
+
+Add a new task by entering the task in the input field and clicking "Add Task."
+Edit a task by clicking the "Edit" button next to the task.
+Mark a task as completed by checking the checkbox.
+Filter tasks by selecting the desired filter button (All, Completed, Incomplete).
+View total counts of tasks, completed tasks, and incomplete tasks.
+
+## Error Handling
+
+The app includes error handling to manage API failures gracefully.
+
+## Feedback
+
+If you have any feedback, please reach out to me at abhishree881@gmail.com
